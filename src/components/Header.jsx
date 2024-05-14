@@ -1,19 +1,5 @@
-import { useMemo } from "react";
+export default function Header({ cart, removeFromCart, increaseQuantity,decreaseQuantity,clearCart, isEmpty,cartTotal }) {
 
-export default function Header({ cart, removeFromCart, increaseQuantity,decreaseQuantity,clearCart }) {
-  {
-    /* NOTA ==> No hagas render completo de mi aplicacion hasta que no cambie el cart (eso para el usememo) */
-  }
-  const isEmpty = useMemo(() => cart.length === 0, [cart]);
-  //el isempty se va a ejecutar solo cuando el carrito ha sido modificado, añadido elementos y tal
-  const cartTotal = useMemo(
-    () => cart.reduce((total, item) => total + item.quantity * item.price, 0),
-    [cart]
-  );
-  {
-    /* NOTA ==> El .reduce pilla todos los numeros del array, devuelve lo que la función le diga 
-reduce los valores a un solo elemento y empieza en 0*/
-  }
   return (
     <header className="py-5 header">
       <div className="container-xl">
