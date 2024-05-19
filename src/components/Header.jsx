@@ -6,11 +6,7 @@ export default function Header({ cart, removeFromCart, increaseQuantity,decrease
         <div className="row justify-content-center justify-content-md-between">
           <div className="col-8 col-md-3">
             <a href="index.html">
-              <img
-                className="img-fluid"
-                src="/img/logo.svg"
-                alt="imagen logo"
-              />
+
             </a>
           </div>
           <nav className="col-md-6 a mt-5 d-flex align-items-start justify-content-end">
@@ -42,7 +38,7 @@ export default function Header({ cart, removeFromCart, increaseQuantity,decrease
                             <td>
                               <img
                                 className="img-fluid"
-                                src={`/img/${guitar.image}.jpg`}
+                                src={`/img/${guitar.image}.png`}
                                 alt="imagen guitarra"
                               />
                             </td>
@@ -61,7 +57,7 @@ export default function Header({ cart, removeFromCart, increaseQuantity,decrease
                               </button>
                             </td>
                             <td>
-                              <button className="btn btn-danger" type="button"
+                              <button className="btn boton-vaciar" type="button"
                               onClick={()=> removeFromCart(guitar.id)}>
                                 X
                               </button>
@@ -77,7 +73,7 @@ export default function Header({ cart, removeFromCart, increaseQuantity,decrease
                   </>
                 )}
                 <button
-                onClick={clearCart} className="btn btn-dark w-100 mt-3 p-2">
+                onClick={clearCart} className="btn boton-vaciar w-100 mt-3 p-2">
                   Vaciar Carrito
                 </button>
               </div>

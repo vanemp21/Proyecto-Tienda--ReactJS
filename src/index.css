@@ -1,4 +1,5 @@
 @charset "UTF-8";
+ 
 .fw-black {
   font-weight: 900;
 }
@@ -15,7 +16,9 @@
   z-index: 100;
   
 }
-
+.pintalabios-h2{
+  color:rgb(82, 3, 36);
+}
 .carrito #carrito {
   display: none;
   position: absolute;
@@ -53,12 +56,21 @@
 .m-0 {
   margin: 0;
 }
+footer, .boton-vaciar, .boton-agregar{
+  background-color: #3c0512 !important;
+}
+.boton-vaciar, .boton-agregar{
+  text-decoration: none !important;
+  color:white !important;
+}
+
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -698,7 +710,9 @@ button:not(:disabled),
   --bs-text-opacity: 1;
   color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
 }
-
+.price-color{
+  color:rgb(148, 8, 62) !important;
+}
 .text-white {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
@@ -762,6 +776,7 @@ button:not(:disabled),
 .header .header-guitarra {
   display: none;
 }
+
 @media (min-width: 992px) {
   .header .header-guitarra {
     display: block;
