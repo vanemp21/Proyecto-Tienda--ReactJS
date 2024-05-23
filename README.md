@@ -8,7 +8,7 @@ Clone the Project
 To get a copy of this project on your local machine, you can use the following command:
 
 ```bash
-git clone https://github.com/your-username/lipstick-store.git
+git clone https://github.com/vanemp21/Proyecto-Tienda--ReactJS.git
 ```
 
 # Installation
@@ -43,6 +43,6 @@ This will start the development server, and you can view the application by open
 <li>Utilization of React hooks (useState, useEffect, useMemo)</li>
 <li>Implementation of custom hooks</li>
   </ul><br/>
-Visit the Website [click here](https://66434c4ab4ed5a00907b2ee0--snazzy-salmiakki-ae9f69.netlify.app/)
+Visit the Website https://66434c4ab4ed5a00907b2ee0--snazzy-salmiakki-ae9f69.netlify.app/
 To explore the live version of this project, visit Lipstick Store.
 
