@@ -43,6 +43,6 @@ This will start the development server, and you can view the application by open
 <li>Utilization of React hooks (useState, useEffect, useMemo)</li>
 <li>Implementation of custom hooks</li>
   </ul><br/>
-Visit the Website https://66434c4ab4ed5a00907b2ee0--snazzy-salmiakki-ae9f69.netlify.app/
+Visit the Website: https://6649fb858c65b1b3094cdb24--resilient-unicorn-63de6d.netlify.app/
 To explore the live version of this project, visit Lipstick Store.
 
